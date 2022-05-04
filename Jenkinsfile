@@ -1,17 +1,16 @@
-pipeline 
-{
-	agent any 
+ipeline {
+	agent any
 	stages {
-		  stage('Build')
-		  {
-		     steps {
+		stage('Build') {
+			steps {
 
-			    sh 'echo test'
-			    sh ' ' '
-			    echo "multi line"
-			    ls -lrt
-			     ...
-			    }
-		   }
+				sh 'echo test'
+				sh ''
+				'
+				echo "multi line"
+				ls - lrt
+					...
+			}
 		}
+	}
 }
