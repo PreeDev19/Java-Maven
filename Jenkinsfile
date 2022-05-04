@@ -1,4 +1,4 @@
-ipeline {
+pipeline {
 	agent any
 	stages {
 		stage('Build') {
@@ -6,8 +6,8 @@ ipeline {
 
 				sh 'echo test'
 				sh '''
-				echo "multi line"
-				ls - lrt
+				     echo "multi line"
+				     ls - lrt
 			        ...
 			}
 		}
